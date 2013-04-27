@@ -7,7 +7,7 @@ function [data,res] = extract_features(bw,dbg)
 % üstten 3.cü parca ayaklardır mantıgıyla kodlama yapılmıştır.
 % uygun resim geldiğinde alınan sonuc:
 % orjınal: http://iceimg.com/i/68/14/e6f2d9cfe0.png
-& işlem yapıldığında: http://iceimg.com/i/01/e4/0f9e3dd288.png
+% işlem yapıldığında: http://iceimg.com/i/01/e4/0f9e3dd288.png
 
           points='';
           stat=regionprops(im2bw(bw),'BoundingBox');
